@@ -1,0 +1,410 @@
+/*
+
+Color Palette:
+
+PRIMARY -- Smoky Black.....................................#12130F
+SECONDARY -- Platinum (off white)..........................#EAE6E5 
+TERTIARY -- Illuminating Emerald (darker sea foam green)...#5B9279 
+TERTIARY -- Dark Slate Blue (navy blue)....................#414288 
+ACCENT -- Pink Lavender....................................#E0BAD7 
+
+*/
+
+h1 {
+  text-align: center;
+  background-color: #5B9279;
+  color: #EAE6E5;
+  padding: 10px 10px 10px 10px;
+  font-family: Arial;
+  font-size: 48px;
+  border: solid;
+  border-color: #E0BAD7;
+  border-width: 5px;
+}
+
+h1:hover {
+  text-align: center;
+  background-color: #414288;
+  color: #E0BAD7;
+  padding: 10px 10px 10px 10px;
+  font-family: Arial;
+  font-size: 48px;
+  border: solid;
+  border-color: #5B9279;
+  border-width: 6px;
+}
+
+.h2-Intro {
+  text-align: center;
+  color: #E0BAD7;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 36px;
+  margin: 0px 0px 0px 0px;
+  padding: 10px 10px 10px 10px; 
+ 
+}
+
+.h2-Intro:hover {
+  text-align: center;
+  color: #414288;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 38px;
+  margin: 0px 0px 0px 0px;
+  padding: 10px 10px 10px 10px; 
+}
+
+.h2-projects {
+  text-align: center;
+  color: #E0BAD7;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 36px;
+  margin: 0px 0px 0px 0px;
+  padding: 10px 10px 10px 10px;
+  background-color: #414288;
+}
+
+.h2-projects:hover {
+  text-align: center;
+  color: #5B9279;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 38px;
+  margin: 0px 0px 0px 0px;
+  padding: 10px 10px 10px 10px;
+  background-color: #414288;
+}
+
+.h2-Contact {
+  text-align: center;
+  color: #E0BAD7;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 36px;
+  margin: 0px 0px 0px 0px;
+  padding: 10px 10px 10px 10px;
+}
+
+.h2-Contact:hover {
+  text-align: center;
+  color: #414288;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 38px;
+  margin: 0px 0px 0px 0px;
+  padding: 10px 10px 10px 10px;
+}
+
+.h3-Intro {
+  text-align: center;
+  color: #EAE6E5;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 28px;
+  border: solid;
+  border-color: #E0BAD7;
+  border-width: 3px;
+}
+
+.h3-Intro:hover {
+  text-align: center;
+  color: #E0BAD7;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 28px;
+  border: solid;
+  border-color: #414288;
+  border-width: 4px;
+}
+
+.h3-projects {
+  text-align: center;
+  color: #EAE6E5;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 28px;
+  border: solid;
+  border-color: #E0BAD7;
+  border-width: 3px;
+  background-color: #414288;
+}
+
+.h3-projects:hover {
+  text-align: center;
+  color: #E0BAD7;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 28px;
+  border: solid;
+  border-color: #5B9279;
+  
+  border-width: 4px;
+}
+
+.h3-Contact {
+  text-align: center;
+  color: #EAE6E5;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 28px;
+  border: solid;
+  border-color: #E0BAD7;
+  border-width: 3px;
+}
+
+.h3-Contact:hover {
+  text-align: center;
+  color: #E0BAD7;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 28px;
+  border: solid;
+  border-color: #414288;
+  border-width: 4px;
+}
+
+body {
+  background-color: #12130F;
+  color: #EAE6E5;
+}
+
+.welcome-section {
+  text-align: center;
+  background-color: #414288;
+  color: #EAE6E5;
+  padding: 5px 10px 30px 10px; 
+}
+
+footer {
+  background-color: #414288;
+  color: #EAE6E5;
+  padding: 40px 40px 40px 40px; 
+}
+
+.copyright {
+  text-align: right;
+  margin: -27px 0px 0px 0px; 
+}
+
+.copyright:link {color: #414288;}
+.copyright:visited {color: #EAE6E5;}
+.copyright:hover {color: #5B9279;}
+.copyright:active {color: #E0BAD7;}
+
+.footer-link {
+  text-align: left;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footer-link:link {color: #EAE6E5;}
+.footer-link:visited {color: #12130F;}
+.footer-link:hover {color: #5B9279;}
+.footer-link:active {color: #E0BAD7;}
+
+.navbar {
+  background-color: #E0BAD7;
+  border: solid;
+  border-color: #5B9279;
+  border-width: 2px;
+  padding: 15px 15px 15px 15px;
+  font-size: 20px; 
+  text-align: center;
+}
+
+
+.navbar:link {color: #EAE6E5;}
+.navbar:visited {color: #5B9279;}
+.navbar:hover {color: #414288; border-color: #EAE6E5; border-width: 3px;}
+.navbar:active {color: #E0BAD7;}
+
+
+.intro-p {
+  text-align: center;
+  color: #EAE6E5;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0px 0px 0px 0px;
+  padding: 10px 10px 10px 10px;
+  font-size: 24px;
+}
+
+.intro-p-bottom {
+  text-align: center;
+  color: #EAE6E5;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0px 0px 0px 0px;
+  padding: 10px 20px 20px 20px;
+  font-size: 24px;
+}
+
+.projects-p {
+  text-align: center;
+  color: #E0BAD7;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0px 0px 0px 0px;
+  padding: 10px 10px 10px 10px;
+  font-size: 24px;
+}
+
+.projects-p:hover {
+  text-align: center;
+  color: #5B9279;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0px 0px 0px 0px;
+  padding: 10px 10px 10px 10px;
+  font-size: 24px;
+}
+
+.decoder-img {
+  width: 100vw;
+}
+
+.projects-p2 {
+  text-align: center;
+  color: #E0BAD7;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0px 0px 0px 0px;
+  padding: 10px 10px 10px 10px;
+  font-size: 24px;
+}
+
+.projects-p2:hover {
+  text-align: center;
+  color: #5B9279;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0px 0px 0px 0px;
+  padding: 10px 10px 10px 10px;
+  font-size: 24px;
+}
+
+.projects-p3 {
+  text-align: center;
+  color: #E0BAD7;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0px 0px 0px 0px;
+  padding: 10px 10px 10px 10px;
+  font-size: 24px;
+}
+
+.projects-p3:hover {
+  text-align: center;
+  color: #5B9279;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0px 0px 0px 0px;
+  padding: 10px 10px 10px 10px;
+  font-size: 24px;
+}
+
+.projects-p-bottom {
+  text-align: center;
+  color: #E0BAD7;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0px 0px 0px 0px;
+  padding: 15px 30px 30px 30px;
+  font-size: 24px;
+}
+
+.projects-p-bottom:hover {
+  text-align: center;
+  color: #5B9279;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0px 0px 0px 0px;
+  padding: 15px 30px 30px 30px;
+  font-size: 24px;
+}
+
+.project-tile1 {
+}
+
+.project-tile2 {
+ 
+}
+
+.project-tile3 {
+
+}
+.contact-p {
+  text-align: center;
+  color: #EAE6E5;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0px 0px 0px 0px;
+  padding: 10px 10px 10px 10px;
+  font-size: 24px;
+}
+
+.contact-p-bottom {
+  text-align: center;
+  color: #EAE6E5;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0px 0px 0px 0px;
+  padding: 10px 20px 20px 20px;
+  font-size: 24px;
+}
+
+strong {
+  color: #414288;
+}
+
+strong:hover {
+  color: #E0BAD7;
+}
+
+.email-text {
+  text-align: center;
+  color: #EAE6E5;
+}
+
+.email-text:hover {
+  color: #414288;
+}
+
+.email-text:active {
+  color: #E0BAD7;
+}
+
+.LinkedIn-link {
+  text-align: center;
+}
+
+.GitHub-link {
+  text-align: center;
+}
+
+.LinkedIn-link:link {color: #414288;}
+.LinkedIn-link:visited {color: #EAE6E5;}
+.LinkedIn-link:hover {color: #414288;}
+.LinkedIn-link:active {color: #E0BAD7;}
+
+.GitHub-link:link {color: #414288;}
+.GitHub-link:visited {color: #EAE6E5;}
+.GitHub-link:hover {color: #414288;}
+.GitHub-link:active {color: #E0BAD7;}
+
+.intro-section {
+  text-align: center;
+  background-color: #5B9279;
+  color: #EAE6E5;
+}
+
+.projects-section {
+  text-align: center;
+  background-color: #414288;
+  color: #EAE6E5;
+}
+
+
+.contact-section {
+  text-align: center;
+  background-color: #5B9279;
+  color: #EAE6E5;
+}
+
+.retrowave {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 27.5%;
+}
+
+.ben-pic {
+  margin: 0px 0px 25px 0px;
+  border: solid;
+  border-color: #E0BAD7;
+  border-width: 5px;
+}
+
+.ben-pic:hover {
+  margin: 0px 0px 25px 0px;
+  border: solid;
+  border-color: #5B9279;
+  border-width: 6px;
+}
