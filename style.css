@@ -8,9 +8,16 @@ TERTIARY -- Illuminating Emerald (darker sea foam green)...#5B9279
 TERTIARY -- Dark Slate Blue (navy blue)....................#414288 
 ACCENT -- Pink Lavender....................................#E0BAD7 
 
+Table of Contents (copy and paste to 'find' to jump to a section.
+
+- Background Border Animation -
+- Media Queries -
+- Header Styling -
+- Styling by Section -
+
 */
 
-
+/* Background Border Animation */
 html {
   background: linear-gradient(-45deg, #5B9279, #E0BAD7 ,#414288);
 	background-size: 400% 400%;
@@ -30,6 +37,8 @@ html {
 		background-position: 0% 50%;
 	}
 }  
+
+/* Media Queries */
 
 /* 1200px / 16px = 75em */
 @media (max-width: 75em) {
@@ -51,6 +60,8 @@ html {
     font-size: 55%;
   }
 }
+
+/* Header Styling */
 
 h1 {
   text-align: center;
@@ -139,8 +150,8 @@ h1:hover {
 }
 
 h3 a:link { color: #EAE6E5; }
-h3 a:visited { color: #12130f; }
-h3 a:hover { color: #5b9279; }
+h3 a:visited { color: #EAE6E5; }
+h3 a:hover { color: #e0bad7; }
 h3 a:active { color: #e0bad7; }
 
 
@@ -210,6 +221,8 @@ h3 a:active { color: #e0bad7; }
   border-color: #414288;
   border-width: 4px;
 }
+
+/* Styling by Section */
 
 body {
   background-color: #12130f;
