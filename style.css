@@ -6,7 +6,7 @@ PRIMARY -- Smoky Black.....................................#12130F
 SECONDARY -- Platinum (off white)..........................#EAE6E5 
 TERTIARY -- Illuminating Emerald (darker sea foam green)...#5B9279 
 TERTIARY -- Dark Slate Blue (navy blue)....................#414288 
-ACCENT -- Pink Lavender....................................#E0BAD7 
+ACCENT -- Pink Lavender....................................#e497d2 
 
 Table of Contents (copy and paste to 'find' to jump to a section.
 
@@ -19,9 +19,9 @@ Table of Contents (copy and paste to 'find' to jump to a section.
 
 /* Background Border Animation */
 html {
-  background: linear-gradient(-45deg, #5B9279, #E0BAD7 ,#414288);
+  background: linear-gradient(-45deg, pink ,orange, salmon, blue, green, teal);
 	background-size: 400% 400%;
-	animation: gradient 7s ease infinite;
+	animation: gradient 5s ease infinite;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
@@ -71,14 +71,14 @@ h1 {
   font-family: Arial;
   font-size: 48px;
   border: solid;
-  border-color: #e0bad7;
+  border-color: #e497d2;
   border-width: 5px;
 }
 
 h1:hover {
   text-align: center;
   background-color: #414288;
-  color: #e0bad7;
+  color: #e497d2;
   padding: 10px 10px 10px 10px;
   font-family: Arial;
   font-size: 48px;
@@ -89,7 +89,7 @@ h1:hover {
 
 .h2-Intro {
   text-align: center;
-  color: #e0bad7;
+  color: #e497d2;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 36px;
@@ -109,7 +109,7 @@ h1:hover {
 
 .h2-projects {
   text-align: center;
-  color: #e0bad7;
+  color: #e497d2;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 36px;
@@ -131,7 +131,7 @@ h1:hover {
 
 .h2-Contact {
   text-align: center;
-  color: #e0bad7;
+  color: #e497d2;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 36px;
@@ -151,8 +151,8 @@ h1:hover {
 
 h3 a:link { color: #EAE6E5; }
 h3 a:visited { color: #EAE6E5; }
-h3 a:hover { color: #e0bad7; }
-h3 a:active { color: #e0bad7; }
+h3 a:hover { color: #e497d2; }
+h3 a:active { color: #e497d2; }
 
 
 .h3-Intro {
@@ -162,13 +162,13 @@ h3 a:active { color: #e0bad7; }
     "Lucida Sans", Arial, sans-serif;
   font-size: 28px;
   border: solid;
-  border-color: #e0bad7;
+  border-color: #e497d2;
   border-width: 3px;
 }
 
 .h3-Intro:hover {
   text-align: center;
-  color: #e0bad7;
+  color: #e497d2;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 28px;
@@ -183,14 +183,14 @@ h3 a:active { color: #e0bad7; }
     "Lucida Sans", Arial, sans-serif;
   font-size: 28px;
   border: solid;
-  border-color: #e0bad7;
+  border-color: #e497d2;
   border-width: 3px;
   background-color: #414288;
 }
 
 .h3-projects:hover {
   text-align: center;
-  color: #e0bad7;
+  color: #e497d2;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 28px;
@@ -207,13 +207,13 @@ h3 a:active { color: #e0bad7; }
     "Lucida Sans", Arial, sans-serif;
   font-size: 28px;
   border: solid;
-  border-color: #e0bad7;
+  border-color: #e497d2;
   border-width: 3px;
 }
 
 .h3-Contact:hover {
   text-align: center;
-  color: #e0bad7;
+  color: #e497d2;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 28px;
@@ -257,7 +257,7 @@ footer {
   color: #5b9279;
 }
 .copyright:active {
-  color: #e0bad7;
+  color: #e497d2;
 }
 
 .footer-link {
@@ -266,40 +266,26 @@ footer {
     "Lucida Sans", Arial, sans-serif;
 }
 
-.footer-link:link {
-  color: #eae6e5;
-}
-.footer-link:visited {
-  color: #12130f;
-}
-.footer-link:hover {
-  color: #5b9279;
-}
-.footer-link:active {
-  color: #e0bad7;
-}
+.footer-link:link { color: #eae6e5; }
+.footer-link:visited { color: #12130f; }
+.footer-link:hover { color: #5b9279; }
+.footer-link:active { color: #e497d2; }
 
 .navbar {
-  background-color: #e0bad7;
+  background-color: #e581ce;
   border: solid;
   border-color: #5b9279;
   border-width: 3px;
   padding: 1rem;
 }
 
-.navbar:link {
-  color: #eae6e5;
-}
-.navbar:visited {
-  color: #5b9279;
-}
+.navbar:link { color: #eae6e5; }
+.navbar:visited { color: #5b9279; }
+.navbar:active { color: #e497d2; }
 .navbar:hover {
   color: #414288;
   border-color: #eae6e5;
   border-width: 3px;
-}
-.navbar:active {
-  color: #e0bad7;
 }
 
 .intro-p {
@@ -322,43 +308,26 @@ footer {
 
 .project-tile {
   text-align: center;
-  color: #e0bad7;
+  color: #EAE6E5;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   margin: 0px 0px 0px 0px;
   padding: 10px 10px 10px 10px;
   font-size: 24px;
 }
-
-.project-tile:hover {
-  text-align: center;
-  color: #5b9279;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  margin: 0px 0px 0px 0px;
-  padding: 10px 10px 10px 10px;
-  font-size: 24px;
-}
-
-.decoder-img {
-  width: 100vw;
-}
+.project-tile:hover { color: #5b9279; }
+.project-tile:active { color: #E497D2; }
 
 .project-tile-bottom {
   text-align: center;
-  color: #e0bad7;
+  color: #EAE6E5;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   margin: 0px 0px 0px 0px;
   padding: 15px 30px 30px 30px;
   font-size: 24px;
 }
 
-.project-tile-bottom:hover {
-  text-align: center;
-  color: #5b9279;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  margin: 0px 0px 0px 0px;
-  padding: 15px 30px 30px 30px;
-  font-size: 24px;
-}
+.project-tile-bottom:hover { color: #5b9279; }
+.project-tile-bottom:active { color: #E497D2; }
 
 .contact-p {
   text-align: center;
@@ -378,60 +347,24 @@ footer {
   font-size: 24px;
 }
 
-strong {
-  color: #414288;
-}
+strong { color: #414288; }
+strong:hover { color: #e497d2; }
 
-strong:hover {
-  color: #e0bad7;
-}
+.email-text { text-align: center; color: #eae6e5; }
+.email-text:hover { color: #414288; }
+.email-text:active { color: #e497d2; }
 
-.email-text {
-  text-align: center;
-  color: #eae6e5;
-}
+.LinkedIn-link { text-align: center; }
+.LinkedIn-link:link { color: #414288; }
+.LinkedIn-link:visited { color: #eae6e5; }
+.LinkedIn-link:hover { color: #414288; }
+.LinkedIn-link:active { color: #e497d2; }
 
-.email-text:hover {
-  color: #414288;
-}
-
-.email-text:active {
-  color: #e0bad7;
-}
-
-.LinkedIn-link {
-  text-align: center;
-}
-
-.GitHub-link {
-  text-align: center;
-}
-
-.LinkedIn-link:link {
-  color: #414288;
-}
-.LinkedIn-link:visited {
-  color: #eae6e5;
-}
-.LinkedIn-link:hover {
-  color: #414288;
-}
-.LinkedIn-link:active {
-  color: #e0bad7;
-}
-
-.GitHub-link:link {
-  color: #414288;
-}
-.GitHub-link:visited {
-  color: #eae6e5;
-}
-.GitHub-link:hover {
-  color: #414288;
-}
-.GitHub-link:active {
-  color: #e0bad7;
-}
+.GitHub-link { text-align: center; }
+.GitHub-link:link { color: #414288; }
+.GitHub-link:visited { color: #eae6e5; }
+.GitHub-link:hover { color: #414288; }
+.GitHub-link:active { color: #e497d2; }
 
 .intro-section {
   text-align: center;
@@ -461,7 +394,7 @@ strong:hover {
 .ben-pic {
   margin: 0px 0px 25px 0px;
   border: solid;
-  border-color: #e0bad7;
+  border-color: #e497d2;
   border-width: 5px;
 }
 
