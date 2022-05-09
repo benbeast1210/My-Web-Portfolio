@@ -6,11 +6,11 @@ Below are several riddles associated with easter eggs within my site. The soluti
 
 ### Examples: 
 > Riddle: A picture is worth more than a thousand words, but in this case...about 393 words.
-> 
+
 > Solution: This would be a 'single-action' answer, leading the user to click the only image on my site. 
 
-> Riddle: My namesake's linked to rarity; In Indus Valley I judged many-a-soul's parity. Sometimes I can fly, sometimes I can't die. A capricorn I am not, > though an alicorn I do adorn.
+> Riddle: My namesake's linked to rarity; In Indus Valley I judged many-a-soul's parity. Sometimes I can fly, sometimes I can't die. A capricorn I am not, though an alicorn I do adorn.
 > Solution: "unicorn"
 
 ### To Be Solved: 
->
+
