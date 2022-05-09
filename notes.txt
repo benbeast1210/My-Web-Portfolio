@@ -1,0 +1,15 @@
+Color Palette:
+PRIMARY -- Metallic Sunburst...............................#A98743
+
+
+SECONDARY -- Eggshell......................................#EEEBD3 
+
+
+TERTIARY -- Teal Blue......................................#437C90
+
+
+TERTIARY -- Dark Slate Gray................................#255957
+
+
+ACCENT -- Maize Crayola....................................#F7C548
+- h1 background-color

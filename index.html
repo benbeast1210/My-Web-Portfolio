@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width">
   <title>Benjamin Davis Sams</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="https://www.cornify.com/js/cornify.js"></script>
 </head>
 
 <!-- Header and h1 at the top for clarity -->
@@ -21,7 +23,7 @@
       </ul>
     </nav>
     <h1>Benjamin Davis Sams</h1>
-    <a href="resume.pdf" target="_blank"><img class="ben-pic" src="https://static.wixstatic.com/media/17c3cd_9625432d66394a73902b3bf093147800~mv2.jpg/v1/crop/x_49,y_0,w_2276,h_3024/fill/w_301,h_400,al_c,q_80,usm_0.66_1.00_0.01/IMG_5615.webp" alt="a picture of Benjamin Sams"></a>
+    <a class="resume-link" href="docs/resume.pdf" target="_blank"><img class="ben-pic" src="https://static.wixstatic.com/media/17c3cd_9625432d66394a73902b3bf093147800~mv2.jpg/v1/crop/x_49,y_0,w_2276,h_3024/fill/w_301,h_400,al_c,q_80,usm_0.66_1.00_0.01/IMG_5615.webp" alt="a picture of Benjamin Sams"></a>
   </header>
   <main>
     <!-- Intro Section -->
@@ -68,5 +70,75 @@
     <p class="copyright">Copyright 2022</p>
   </footer>
 </body>
+
+<!-- Fun easter eggs hidden in the site -->
+<script>
+  const pressed = [];
+  // secret CSS trigger words
+  const unicornTrigger = 'unicorn';
+  const summerTrigger = 'sunburn';
+  const winterTrigger = 'snowman';
+  const fallTrigger = 'foilage'; 
+  const springTrigger = 'blossom';
+  const chessTrigger = 'ptakesp';
+
+  window.addEventListener(("keyup"), (e) => {
+    console.log(e.key);
+    pressed.push(e.key);
+    pressed.splice(-unicornTrigger.length - 1, pressed.length - unicornTrigger.length);
+    
+    if(pressed.join('').includes(unicornTrigger)) {
+      console.log('All the unicorns are here now...');
+      cornify_add();
+    }
+
+/* 
+Color Palette:
+PRIMARY -- Metallic Sunburst...............................#A98743
+SECONDARY -- Eggshell......................................#EEEBD3 
+TERTIARY -- Teal Blue......................................#437C90
+TERTIARY -- Dark Slate Gray................................#255957
+ACCENT -- Maize Crayola....................................#F7C548
+*/
+    
+    if(pressed.join('').includes(summerTrigger)) {
+      console.log('Summer Theme Activated!');
+      $().css().replace("#A98743", "#F49F0A");
+      $().css().replace("#EEEBD3", "#F08700");
+      $().css().replace("#437C90", "#00A6A6");
+      $().css().replace("#255957", "#EFCA08");
+      $().css().replace("#F7C548", "#BBDEF0");
+    }
+
+    if(pressed.join('').includes(winterTrigger)) {
+      console.log('Winter Theme Activated!');
+      $().css().replace("#A98743", "#3F8443");
+      $().css().replace("#EEEBD3", "#EAEAEA");
+      $().css().replace("#437C90", "#C0D6DF");
+      $().css().replace("#255957", "#5863F8");
+      $().css().replace("#F7C548", "linear-gradient(-45deg, red, white)");
+    }
+
+    if(pressed.join('').includes(fallTrigger)) {
+      console.log('Autumn Theme Activated!');
+        $().css().replace("#A98743", "#1D3461");
+        $().css().replace("#EEEBD3", "#EAEAEA");
+        $().css().replace("#437C90", "#BA3F1D");
+        $().css().replace("#255957", "#FF9F1C");
+        $().css().replace("#F7C548", "#F5FF90");
+    }
+
+    if(pressed.join('').includes(springTrigger)) {
+      console.log('Spring Theme Activated!');
+      $().css().replace("#A98743", "#EDE7B1");
+      $().css().replace("#EEEBD3", "#D3F8E2");
+      $().css().replace("#437C90", "#A9DEF9");
+      $().css().replace("#255957", "#F694C1");
+      $().css().replace("#F7C548", "#F694C1");
+    }
+    console.log(pressed); 
+
+  });
+</script>
 
 </html>
